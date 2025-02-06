@@ -1,11 +1,3 @@
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  optimizeDeps: {
-    include: ["three"],
-  },
-});
-
 export default {
   root: "src/",
   publicDir: "../static/",
